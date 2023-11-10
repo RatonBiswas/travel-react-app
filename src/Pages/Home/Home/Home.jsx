@@ -10,25 +10,26 @@ import OurTrustedPartners from "../../OurTrustedPartners/OurTrustedPartners";
 import Testimonial from "../../Testimonial/Testimonial";
 import WhyWeAreBest from "../../WhyWeAreBest/WhyWeAreBest";
 import LatestTravelGuide from "../../LatestTravelGuide/LatestTravelGuide";
-
+import ExploreAdventure from "../../Adventure/ExploreAdventure";
 
 const Home = () => {
-    return (
-        <div>
-            {/* <Topbar></Topbar>
+  return (
+    <div>
+      {/* <Topbar></Topbar>
             <Navbar></Navbar> */}
-            <BrowseByCategory></BrowseByCategory>
-            <WhyChooseUs></WhyChooseUs>
-            <Destination></Destination>
-            <FeaturedTours></FeaturedTours>
-            <WhyWeAreBest></WhyWeAreBest>
-            <Testimonial></Testimonial>
-            <Contact></Contact>
-            <OurTrustedPartners></OurTrustedPartners>
-            <LatestTravelGuide></LatestTravelGuide>
-            {/* <Footer></Footer> */}
-        </div>
-    );
+      <ExploreAdventure />
+      <BrowseByCategory />
+      <WhyChooseUs />
+      <Destination />
+      <FeaturedTours />
+      <WhyWeAreBest />
+      <Testimonial />
+      <Contact />
+      <OurTrustedPartners />
+      <LatestTravelGuide />
+      {/* <Footer></Footer> */}
+    </div>
+  );
 };
 
 export default Home;
