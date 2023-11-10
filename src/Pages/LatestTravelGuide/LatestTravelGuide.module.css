@@ -1,0 +1,9 @@
+.travelGuide {
+  font-family: "Kaushan Script", cursive;
+}
+
+@media (min-width: 400px) {
+  .rotateText {
+    transform: rotate(-90deg);
+  }
+}

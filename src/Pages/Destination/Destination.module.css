@@ -1,0 +1,23 @@
+.destination {
+  font-family: "Kaushan Script", cursive;
+}
+
+.imgContainer {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.imgContainer img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  transition: transform 1.2s;
+}
+
+.imgContainer img:hover {
+  transform: scale(1.2);
+}
+
+.divContainer div:nth-child(even) {
+  margin-top: 40px; /* Target even-numbered div elements within .divContainer and apply a 20px margin-top */
+}

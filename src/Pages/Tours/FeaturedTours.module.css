@@ -1,0 +1,21 @@
+.mainDiv {
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+.featured {
+  font-family: "Kaushan Script", cursive;
+}
+
+/* If you want to have text ellipse after 3 line, use this code */
+.textFlow {
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  height: 90px;
+}
